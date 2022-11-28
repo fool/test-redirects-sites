@@ -1,0 +1,10 @@
+[[redirects]]
+	from = "https://test-redirect-site-1.netlify.app/doc1.html
+	to = "https://test-redirect-site-2.netlify.app/doc2.html"
+	status = 200
+	force = true
+[[redirects]]
+	from = "https://test-redirect-site-2.netlify.app/doc1.html
+	to = "https://test-redirect-site-1.netlify.app/doc2.html"
+	status = 200
+	force = true
