@@ -17,5 +17,6 @@
 	from = "https://test-redirect-site-1.netlify.app/norway-test"
 	to = "https://test-redirect-site-2.netlify.app/norway-test"
 	status = 200
-	country = NO
 	force = true
+	[redirects.conditions]
+		country = "NO"
