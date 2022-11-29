@@ -13,12 +13,10 @@
 	to = "https://test-redirect-site-1.netlify.app/norway-test"
 	status = 301
 	force = true
-	[redirects.conditions]
-		country = "NO"
+	conditions = { country = ["NO"] }
 [[redirects]]
 	from = "https://test-redirect-site-1.netlify.app/norway-test"
 	to = "https://test-redirect-site-2.netlify.app/norway-test"
 	status = 301
 	force = true
-	[redirects.conditions]
-		country = "NO"
+	conditions = { country = ["NO"] }
