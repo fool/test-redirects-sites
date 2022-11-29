@@ -8,3 +8,14 @@
 	to = "https://test-redirect-site-1.netlify.app/doc2.html"
 	status = 200
 	force = true
+[[redirects]]
+	from = "https://test-redirect-site-2.netlify.app/norway-test"
+	to = "https://test-redirect-site-1.netlify.app/norway-test"
+	status = 200
+	force = true
+[[redirects]]
+	from = "https://test-redirect-site-1.netlify.app/norway-test"
+	to = "https://test-redirect-site-2.netlify.app/norway-test"
+	status = 200
+	country = NO
+	force = true
